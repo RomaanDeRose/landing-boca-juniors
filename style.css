@@ -122,3 +122,39 @@ header i:hover {
 .vh:nth-child(even) {
   background-color: #af34bb;
 }
+
+.club-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-title {
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 50px;
+  color: #fde047;
+  background-color: #1e40af;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+.club-description {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.club-description .club-item-description {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1e40af;
+}
+.club-description .club-item-description:nth-child(even)::marker {
+  color: #fde047;
+  font-size: 20px;
+}
+.club-description .club-item-description:nth-child(odd)::marker {
+  font-size: 20px;
+}
