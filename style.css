@@ -248,3 +248,37 @@ header i:hover {
 .section-bombonera li:nth-child(odd)::marker {
   font-size: 20px;
 }
+
+.footer {
+  background-color: #1e40af;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.footer .sponsors {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 0px;
+  border-bottom: 1px solid rgba(253, 223, 71, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer .sponsors:nth-child(3) {
+  border-bottom: none;
+}
+.footer .sponsors p {
+  width: 100%;
+  text-align: center;
+  color: #fde047;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px;
+}
+.footer .sponsors img {
+  margin: 0px 15px;
+}
