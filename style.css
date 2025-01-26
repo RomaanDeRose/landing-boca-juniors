@@ -144,12 +144,16 @@ header i:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: start;
 }
 .club-description .club-item-description {
   margin-top: 20px;
   font-size: 14px;
   font-weight: 400;
+  width: 100%;
+  max-width: 650px;
   color: #1e40af;
+  list-style-position: outside;
 }
 .club-description .club-item-description:nth-child(even)::marker {
   color: #fde047;
@@ -203,4 +207,44 @@ header i:hover {
 .card-title:nth-child(even) {
   background-color: #fde047;
   color: #1e40af;
+}
+
+.section-bombonera {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+.section-bombonera h2 {
+  margin-bottom: 40px;
+}
+.bombonera-description {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+}
+.section-bombonera img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.section-bombonera li {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  max-width: 550px;
+  color: #1e40af;
+  list-style-position: outside;
+}
+.section-bombonera li:nth-child(even)::marker {
+  color: #fde047;
+  font-size: 20px;
+}
+.section-bombonera li:nth-child(odd)::marker {
+  font-size: 20px;
 }
