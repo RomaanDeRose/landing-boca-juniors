@@ -158,3 +158,49 @@ header i:hover {
 .club-description .club-item-description:nth-child(odd)::marker {
   font-size: 20px;
 }
+
+.section-idols {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-trophies {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin-top: 25px;
+}
+.card-title {
+  width: 50%;
+  max-width: 220px;
+  height: 150px;
+  background-color: #1e40af;
+  color: #fde047;
+  border-radius: 10px;
+  margin: 35px 0px;
+  padding: 10px;
+}
+
+.card-title img {
+  width: 90%;
+  height: 80px;
+  object-fit: contain;
+}
+.card-title p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.card-title:nth-child(even) {
+  background-color: #fde047;
+  color: #1e40af;
+}
